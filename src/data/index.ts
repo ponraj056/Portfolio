@@ -12,11 +12,12 @@ export const personalInfo = {
   leetcode: 'https://leetcode.com/u/ponraj056/',
   portfolio: 'https://ponraj-dr-portfolio.netlify.app',
   resumeUrl: '/assets/resume/New_Updated_Resume.pdf',
-  profileImage: '/assets/images/profile.jpg',
+  profileImage: '/assets/ponrajphoto (1).png',
 };
 
 export const stats = [
   { label: 'Projects Completed', value: 5, suffix: '+' },
+  { label: 'LeetCode Problems', value: 300, suffix: '+' },
   { label: 'Certifications', value: 4, suffix: '' },
   { label: 'Internships', value: 2, suffix: '' },
   { label: 'CGPA', value: 8.4, suffix: '', decimals: 1 },
@@ -112,23 +113,23 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'KiranaLens',
+    title: 'Elevate AI Interviewer',
     description:
-      'AI-driven credit underwriting tool assessing creditworthiness of local kirana stores using computer vision and geospatial data for financial inclusion of unbanked small retailers.',
+      'An intelligent interview simulation platform designed to help developers and students prepare for real-world technical interviews using AI.',
     longDescription:
-      'Built with YOLOv8 for shelf/inventory image analysis and XGBoost for predictive credit scoring, integrated with OpenStreetMap/Overpass API for location-based business insights. Developed an interactive Streamlit dashboard for real-time underwriting decisions. Created for TenzorX 2026 National Level Hackathon to address financial inclusion for unbanked small retailers.',
-    tech: ['YOLOv8', 'XGBoost', 'OpenStreetMap API', 'Streamlit', 'Computer Vision'],
+      'Elevate AI Interviewer uses OpenAI to dynamically generate questions tailored to your resume, evaluate your answers in real-time, assess your spoken English communication, review your code solutions, and produce a comprehensive performance report.',
+    tech: ['React', 'Node.js', 'OpenAI', 'TailwindCSS', 'Express'],
     features: [
-      'Shelf Image Analysis',
-      'Predictive Credit Scoring',
-      'Geospatial Business Insights',
-      'Real-Time Underwriting Dashboard',
-      'Overpass API Integration',
-      'Financial Inclusion Focus',
+      'Resume-Tailored Questions',
+      'Real-Time Evaluation',
+      'Spoken English Assessment',
+      'Code Solution Review',
+      'Comprehensive Reports',
+      'OpenAI Integration',
     ],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/ponraj056',
-    image: 'https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800',
+    liveUrl: 'https://elevate-ai-interviewer.vercel.app/',
+    githubUrl: 'https://github.com/ponraj056/elevate-ai-interviewer',
+    image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800',
     featured: true,
     date: '2026',
   },
@@ -150,8 +151,8 @@ export const projects = [
     ],
     liveUrl: 'https://scheme-filter-site.netlify.app',
     githubUrl: 'https://github.com/ponraj056',
-    image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800',
-    featured: false,
+    image: 'https://drive.google.com/uc?export=view&id=1JDpI0n5VmtWVq9g11vhk3dw7owr8NjU2',
+    featured: true,
     date: 'Nov 2025',
   },
   {
@@ -264,8 +265,8 @@ export const certifications = [
 ];
 
 export const achievements = [
-  { label: 'LeetCode Problems', value: '300+', suffix: '+', icon: 'code' },
-  { label: 'Projects Shipped', value: '7+', suffix: '+', icon: 'folder' },
+  { label: 'LeetCode Problems', value: 80, suffix: '+', icon: 'code' },
+  { label: 'Projects Shipped', value: 5, suffix: '+', icon: 'folder' },
   { label: 'Internships', value: 2, suffix: '', icon: 'briefcase' },
   { label: 'Certifications', value: 4, suffix: '', icon: 'award' },
   { label: 'Coding Hours', value: 500, suffix: '+', icon: 'clock' },
