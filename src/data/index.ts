@@ -11,7 +11,7 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/ponrajdr',
   leetcode: 'https://leetcode.com/u/ponraj056/',
   portfolio: 'https://ponraj-dr-portfolio.netlify.app',
-  resumeUrl: '/assets/resume/New_Updated_Resume.pdf',
+  resumeUrl: 'https://drive.google.com/file/d/1DR60DIiTj2FSn0_o3L92xByopWt9nP-e/view?usp=sharing',
   profileImage: '/assets/ponrajphoto (1).png',
 };
 
