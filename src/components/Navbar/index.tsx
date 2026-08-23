@@ -83,7 +83,7 @@ export default function Navbar() {
           {/* CTA + Mobile toggle */}
           <div className="flex items-center gap-3">
             <a
-              href="/assets/resume/New_Updated_Resume.pdf"
+              href="https://drive.google.com/file/d/1DR60DIiTj2FSn0_o3L92xByopWt9nP-e/view?usp=sharing"
               download
               className="hidden sm:flex items-center gap-2 btn-primary text-sm py-2 px-4"
             >
