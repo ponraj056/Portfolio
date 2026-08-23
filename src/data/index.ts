@@ -344,7 +344,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: 'Dr. Ramesh Babu',
+    name: 'Dr. Vijayakumar',
     role: 'Project Guide',
     company: 'V.S.B Engineering College',
     avatar: 'RB',
