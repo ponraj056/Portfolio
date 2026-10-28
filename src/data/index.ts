@@ -12,7 +12,7 @@ export const personalInfo = {
   leetcode: 'https://leetcode.com/u/ponraj056/',
   portfolio: 'https://ponraj-dr-portfolio.netlify.app',
   resumeUrl: 'https://drive.google.com/file/d/1DR60DIiTj2FSn0_o3L92xByopWt9nP-e/view?usp=sharing',
-  profileImage: '/assets/ponrajphoto (1).png',
+  profileImage: 'https://github.com/ponraj056/Portfolio/blob/main/public/assets/Formal%20Young%20Man%20Passport%20Portrait.png',
 };
 
 export const stats = [
